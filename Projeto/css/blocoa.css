@@ -1,0 +1,302 @@
+body {
+    background-color: white;
+}
+
+.sala1,
+.sala2,
+.sala3,
+.sala4,
+.sala5,
+.sala6,
+.sala7,
+.sala8,
+.sala9,
+.sala10,
+.sala11,
+.sala12,
+.sala13,
+.sala14,
+.sala15,
+.sala16,
+.sala17 {
+    border: 3px solid black;
+    cursor: pointer;
+
+    width: 100px;
+    height: 90px;
+    background-color: #f8da5b;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.esqsuper {
+    margin: 59px 450px;
+}
+
+.ofisuper {
+    position: absolute;
+    margin-left: 43%;
+    top: 0;
+    margin-top: 150px;
+    width: 100px;
+    height: 150px;
+}
+
+.sala5 {
+    height: 150px;
+    width: 200px;
+    margin-bottom: 5%;
+}
+
+.sala6,
+.sala7 {
+    height: 110px;
+    width: 200px;
+}
+
+.dirsuper {
+    position: absolute;
+    top: 20.8%;
+    right: 30%;
+}
+
+.esqinfer {
+    position: absolute;
+    margin: 10px 450px;
+}
+
+.ofiinfer {
+    position: absolute;
+    margin-left: 43%;
+    width: 400px;
+    height: 550px;
+}
+
+.sala13 {
+    width: 200px;
+    height: 200px;
+}
+
+.sala8 {
+    height: 200px;
+    margin-bottom: 20%;
+}
+
+.sala9,
+.sala10 {
+    height: 170px;
+}
+
+.sala2 {
+    height: 150px;
+}
+
+.dirinfer {
+    position: absolute;
+    right: 100%;
+    margin-top: 150px;
+}
+
+@media (max-width:1440px) {
+    body {
+        background-color: white;
+    }
+
+    .sala1,
+    .sala2,
+    .sala3,
+    .sala4,
+    .sala5,
+    .sala6,
+    .sala7,
+    .sala8,
+    .sala9,
+    .sala10,
+    .sala11,
+    .sala12,
+    .sala13,
+    .sala14,
+    .sala15,
+    .sala16,
+    .sala17 {
+        border: 3px solid black;
+        cursor: pointer;
+
+        width: 100px;
+        height: 90px;
+        background-color: #f8da5b;
+        text-align: center;
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .esqsuper {
+        margin: 59px 30%;
+    }
+
+    .ofisuper {
+        position: absolute;
+        margin-left: 43%;
+        top: 0;
+        margin-top: 150px;
+        width: 100px;
+        height: 150px;
+    }
+
+    .sala5 {
+        height: 150px;
+        width: 200px;
+        margin-bottom: 5%;
+    }
+
+    .sala6,
+    .sala7 {
+        height: 110px;
+        width: 200px;
+    }
+
+    .dirsuper {
+        position: absolute;
+        top: 14.7%;
+        right: 30%;
+    }
+
+    .esqinfer {
+        position: absolute;
+        margin: 10px 30%;
+    }
+
+    .ofiinfer {
+        position: absolute;
+        margin-left: 43%;
+        width: 400px;
+        height: 550px;
+    }
+
+    .sala13 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .sala8 {
+        height: 200px;
+        margin-bottom: 20%;
+    }
+
+    .sala9,
+    .sala10 {
+        height: 170px;
+    }
+
+    .sala2 {
+        height: 150px;
+    }
+
+    .dirinfer {
+        position: absolute;
+        right: 30%;
+        margin-top: 150px;
+    }
+}
+
+@media (max-width:1024px) {
+    body {
+        background-color: white;
+    }
+
+    .sala1,
+    .sala2,
+    .sala3,
+    .sala4,
+    .sala5,
+    .sala6,
+    .sala7,
+    .sala8,
+    .sala9,
+    .sala10,
+    .sala11,
+    .sala12,
+    .sala13,
+    .sala14,
+    .sala15,
+    .sala16,
+    .sala17 {
+        border: 3px solid black;
+        cursor: pointer;
+        width: 100px;
+        height: 90px;
+        background-color: #f8da5b;
+        text-align: center;
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .esqsuper {
+        margin: 59px 22%;
+    }
+
+    .ofisuper {
+        position: absolute;
+        margin-left: 40%;
+        top: 0;
+        margin-top: 150px;
+        width: 100px;
+        height: 150px;
+    }
+
+    .sala5 {
+        height: 150px;
+        width: 200px;
+        margin-bottom: 5%;
+    }
+
+    .sala6,
+    .sala7 {
+        height: 110px;
+        width: 200px;
+    }
+
+    .dirsuper {
+        position: absolute;
+        top: 16.9%;
+        right: 22%;
+    }
+
+    .esqinfer {
+        position: absolute;
+        margin: 10px 22%;
+    }
+
+    .ofiinfer {
+        position: absolute;
+        margin-left: 40%;
+        width: 400px;
+        height: 550px;
+    }
+
+    .sala13 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .sala8 {
+        height: 200px;
+        margin-bottom: 20%;
+    }
+
+    .sala9,
+    .sala10 {
+        height: 170px;
+    }
+
+    .sala2 {
+        height: 150px;
+    }
+
+    .dirinfer {
+        position: absolute;
+        right: 20%;
+        margin-top: 200px;
+    }
+}

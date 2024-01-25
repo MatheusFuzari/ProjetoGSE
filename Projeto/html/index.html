@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GSE</title>
+    <link rel="stylesheet" href="../css/login.css" />
+    <link rel="icon" href="../img/logo3.png" />
+  </head>
+
+  <body onload="testeError()" id="body">
+    <form action="./../public/login.php" method="post" id="forms">
+      <div id="login" class="login">
+        <center><img class="logo1" src="../img/logo1.png" /></center>
+        <div class="card-content">
+          <div class="card-content-area-user">
+            <input
+              class="usuario"
+              type="text"
+              name="usuario"
+              autocomplete="off"
+            />
+            <span>E-mail</span>
+          </div>
+          <div class="card-content-area-password">
+            <input
+              class="password"
+              type="password"
+              name="password"
+              autocomplete="off"
+            />
+            <span>Senha</span>
+          </div>
+        </div>
+        <br />
+        <div class="card-footer">
+          <input type="submit" value="Login" class="submit" />
+          <center>
+            <a class="esqsenha" href="./esqueceusenha.html"
+              >Esqueceu sua senha?</a
+            >
+          </center>
+        </div>
+      </div>
+    </form>
+    <script src="../js/login.js"></script>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.divCreate{
+    width: 700px;
+    height: 400px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 5px 0 15px -8px rgb(58, 5, 58);
+    border: 1px solid purple;
+    text-align: left;
+    background: linear-gradient(120deg, white 60%, purple 20%);
+    margin: auto;
+    margin-top: 8%;
+}
+
+.divCreate p{
+    font-size: 20px;
+    float: right;
+    margin-right: 5%;
+    margin-top: 5%;
+    color: white;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.formCreate{
+    margin-top: 10%;
+}
+
+.divCreate input{
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 35px;
+    width: 250px;
+    margin-left: 12%;
+    margin-top: 2%;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.button{
+    background-color: purple;
+    color: white;
+    font-size: 15px;
+    transition: 0.2s ease-in-out;
+}
+.button:hover{
+    background-color: white;
+    color: purple;
+    font-size: 15px;
+}

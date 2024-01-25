@@ -1,0 +1,141 @@
+.salab1,
+.salab2,
+.salab3,
+.salab4,
+.salab5,
+.salab6,
+.salab7,
+.salab8,
+.salab9,
+.salab10,
+.salab11,
+.salab12,
+.salab13,
+.salab14,
+.salab15,
+.salab16 {
+  border: 3px solid black;
+  background-color: #379956;
+  text-align: center;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.flex-blocob {
+  display: flex;
+}
+
+.sala24,
+.sala25 {
+  width: 100% !important;
+}
+
+.sala18,
+.sala19,
+.sala20,
+.sala28,
+.sala29,
+.sala30,
+.sala31,
+.sala32,
+.sala33 {
+  width: 100px;
+  height: 90px;
+  margin-top: 1px;
+}
+
+.sala21 {
+  width: 200px;
+  height: 150px;
+  margin-left: 65px;
+  margin-bottom: 1px;
+}
+
+.sala22,
+.sala23 {
+  width: 159px;
+  height: 130px;
+}
+
+.sala23 {
+  margin-left: 1px;
+}
+
+.sala24,
+.sala25 {
+  width: 100px;
+  height: 130px;
+}
+
+.sala25 {
+  margin-top: 1px;
+}
+
+.sala26 {
+  margin-left: 7px;
+  width: 151px;
+}
+
+.sala27 {
+  width: 326px;
+  height: 200px;
+  margin-top: 10px;
+}
+
+.sala32 {
+  margin-top: 50px;
+}
+
+.block-right {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 50px;
+}
+
+.block-right-two {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-blocob {
+  margin-left: 40px;
+}
+
+.left-blocob {
+  margin-right: 40px;
+}
+
+@media (max-width: 1024px) {
+  body {
+    background-color: white;
+  }
+
+  nav {
+    margin-left: 300px;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  #blocob {
+    margin-left: 20%;
+  }
+
+  #astronauta {
+    height: 500px;
+    width: 400px;
+    margin: 100px 0px 0px 520px;
+  }
+
+  .about {
+    position: absolute;
+    top: 350px;
+    left: 50px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+  }
+}

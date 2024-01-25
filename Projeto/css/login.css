@@ -1,0 +1,167 @@
+body {
+  background: url('../img/5922752_auto_x2.jpg');
+  background-size:cover;
+  object-fit:cover;
+  scale: 1;
+  overflow: hidden;
+}
+
+.login {
+  backdrop-filter: blur(5px);
+  border-radius: 15px;
+  border: 2px solid black;
+  width: 400px;
+  height: 520px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  transform: translateY(120px);
+  padding-top: 20px;
+  margin: auto;
+  text-align: center;
+}
+
+.logo1 {
+  width: 130px;
+  margin-bottom: 40px;
+}
+
+.card-content-area-user {
+  position: relative;
+  width: 250px;
+  height: 50px;
+  margin: auto;
+  right: 2%;
+}
+
+.card-content-area-user input {
+  color: black;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid black;
+  outline: none;
+  padding: 10px;
+  font-size: 1em;
+}
+
+.card-content-area-user span {
+  position: absolute;
+  left: 0;
+  top: 1px;
+  padding: 10px;
+  font-size: 1em;
+  color: black;
+  transition: 0.5s;
+}
+.card-content-area-user input:valid ~ span,
+.card-content-area-user input:focus ~ span {
+  color: #ffde59;
+  transform: translateX(10px) translateY(-20px);
+  font-size: 0.8em;
+  background-color: #052e54;
+  border-radius: 5px;
+  padding: 5px;
+  border-left: 2px solid #052e54;
+  border-right: 2px solid #052e54;
+  letter-spacing: 0.1em;
+}
+
+.card-content-area-user input:focus {
+  border: 2px solid #052e54;
+  border-radius: 5px;
+}
+
+#showpass {
+  position: absolute;
+  margin-right: 50%;
+}
+
+.card-content-area-password {
+  position: relative;
+  width: 250px;
+  height: 50px;
+  margin: auto;
+  right: 2%;
+  margin-top: 8%;
+}
+
+.card-content-area-password input {
+  color: black;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid black;
+  outline: none;
+  padding: 10px;
+  font-size: 1em;
+}
+
+.card-content-area-password span {
+  position: absolute;
+  left: 0;
+  top: 1px;
+  padding: 10px;
+  font-size: 1em;
+  color: black;
+  transition: 0.5s;
+}
+.card-content-area-password input:valid ~ span,
+.card-content-area-password input:focus ~ span {
+  color: #ffde59;
+  transform: translateX(10px) translateY(-20px);
+  font-size: 0.8em;
+  background-color: #052e54;
+  border-radius: 5px;
+  padding: 5px;
+  border-left: 2px solid #052e54;
+  border-right: 2px solid #052e54;
+  letter-spacing: 0.1em;
+}
+.card-content-area-password input:focus {
+  border: 2px solid #052e54;
+  border-radius: 5px;
+}
+
+.card-footer {
+  margin-top: 10%;
+}
+
+.submit {
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  border: 2px solid #052e54;
+  border-radius: 5px;
+  height: 40px;
+  width: 250px;
+  background-color: #ffde59;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.submit:hover {
+  background-color: #052e54;
+  border: 2px solid #010f1d;
+  color: #b6c5d3;
+}
+
+.card-footer a {
+  color: #e7c22d;
+  text-decoration: none;
+  outline: none;
+}
+
+.card-footer a::after {
+  color: #e7c22d;
+}
+
+.ErrorLogin {
+  background-color: rgb(240, 187, 187);
+  width: 250px;
+  height: 20px;
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+  transform: translateY(130px);
+  border: 1px solid rgb(216, 105, 105);
+  color: rgb(153, 26, 26);
+  border-radius: 5px;
+}
